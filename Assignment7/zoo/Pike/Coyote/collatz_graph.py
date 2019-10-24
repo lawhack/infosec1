@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 m=10000
