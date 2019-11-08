@@ -5,4 +5,4 @@ objects = exploitme
 all: $(objects)
 
 $(objects): %: %.c
-        $(CC) $(CFLAGS) -o $@ $<
+	$(CC) $(CFLAGS) -o $@ $<
